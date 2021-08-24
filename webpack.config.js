@@ -28,8 +28,8 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.handlebars$/,
-        loader: 'handlebars-loader',
+        test: /\.hbs$/,
+        use: ['handlebars-loader'],
       },
     ],
   },

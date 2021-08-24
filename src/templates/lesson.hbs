@@ -1,0 +1,12 @@
+<h1>
+  {{mainTitle}}
+</h1>
+<ul>
+  {{#each themes}}
+    <li class="lesson-item">
+      <h2 id={{this.id}}>
+        {{this.title}}
+      </h2>
+    </li>
+  {{/each}}
+</ul>
